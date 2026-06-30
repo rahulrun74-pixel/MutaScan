@@ -1,31 +1,68 @@
 # 🧬 MutaScan
 
-**MutaScan** is an AI-powered DNA mutation analysis tool built using Streamlit and BioPython.  
-It performs sequence alignment, mutation detection, and biological analysis using real bioinformatics algorithms.
+**MutaScan** is a bioinformatics web application built using Python and Streamlit that performs DNA sequence comparison and mutation detection using classical alignment algorithms.
+
+It provides an interactive interface for analyzing genetic variations between reference and sample DNA sequences.
 
 ---
 
 ## 🚀 Live Demo
-👉 (Add Streamlit link after deployment)
+
+👉 https://mutascan.streamlit.app
 
 ---
 
-## 📊 Features
+## 📌 Key Features
 
-- 🧬 Needleman–Wunsch Sequence Alignment
-- 🔬 Mutation Detection (Substitution, Insertion, Deletion)
-- 📈 GC Content Analysis
-- 🧪 DNA → Protein Translation
-- 🔄 Reverse Complement
-- 📊 Interactive Mutation Charts
-- 📄 PDF Report Generation
-- 📥 CSV Export
+### 🧬 Sequence Analysis
+- FASTA file upload support
+- DNA sequence validation
+- Multi-sequence processing
+
+### 🔬 Mutation Detection
+- Needleman–Wunsch global alignment
+- Substitution detection
+- Insertion detection
+- Deletion detection
+
+### 📊 Biological Analytics
+- GC content calculation
+- Nucleotide composition analysis
+- Sequence length comparison
+
+### 🧪 Molecular Biology Tools
+- DNA → Protein translation
+- Reverse complement generation
+- Codon-level reading frame analysis
+
+### 📈 Visualization
+- Mutation distribution charts
+- GC content comparison graphs
+- Alignment visualization
+
+### 📄 Reporting
+- Mutation table generation
+- CSV export
+- PDF report generation
 
 ---
 
-## 🧠 Tech Stack
+## 🧠 Algorithm Used
 
-- Python
+### Needleman–Wunsch Global Alignment
+
+Scoring system:
+- Match: +1
+- Mismatch: -1
+- Gap: -1
+
+This algorithm aligns two DNA sequences and identifies optimal global similarity.
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3
 - Streamlit
 - BioPython
 - Pandas
@@ -34,10 +71,4 @@ It performs sequence alignment, mutation detection, and biological analysis usin
 
 ---
 
-## 📂 How to Run Locally
-
-```bash
-git clone https://github.com/YOUR_USERNAME/MutaScan.git
-cd MutaScan
-pip install -r requirements.txt
-streamlit run app.py
+## 📂 Project Structure
