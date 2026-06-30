@@ -8,7 +8,7 @@ It provides an interactive interface for analyzing genetic variations between re
 
 ## 🚀 Live Demo
 
-👉 https://mutascan.streamlit.app
+👉 https://mutascan-t7qxhcbe2r9oecsdtfgd4g.streamlit.app/
 
 ---
 
